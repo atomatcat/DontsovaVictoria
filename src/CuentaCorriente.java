@@ -34,4 +34,7 @@ public class CuentaCorriente {
         System.out.println("Saldo: "+saldo);
         System.out.println(". . . . . . . . . . . . . . . . .");
     }
+    public double verSaldo(){
+        return saldo;
+    }
 }
